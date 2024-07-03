@@ -1,0 +1,91 @@
+  209  git .
+  210  git .init
+  211  git init
+  212  git -v
+  213  git --version
+  214  git --help
+  215  git status
+  246  git config --list
+  247  git config --list --show-origin
+  248  git config --global user.name hmdgml
+  249  git config --global user.email hmdgml@gmail.com
+  250  git config --list
+  251  git init
+  253  git init
+  255  git init
+  257  git add test
+  258  git status
+  259  git commit 
+  260  git commit -m "first"
+  261  git push test
+  262  git checkout -u origin main
+  263  git checkout -u main
+  264  git checkout -u master
+  265  git branch -u origin main
+  266  git branch -u origin master
+  267  git pull test
+  268  git config --global credential.username hmdgml
+  269  git branch -M main
+  270  git remote add origin https://github.com/hmdgml/study.git
+  271  git push -u origin main
+  272  git remote add origin https://github.com/hmdgml/small_project.git
+  273  git remote remove origin https://github.com/hmdgml/small_project.git
+  274  git remote remove https://github.com/hmdgml/small_project.git
+  275  git remote remove origin https://github.com/hmdgml/small_project.git
+  276  git remote remove  https://github.com/hmdgml/small_project.git
+  277  git remote remove origin 
+  278  git remote remove origin https://github.com/hmdgml/small_project.git
+  279  git remote add origin https://github.com/hmdgml/small_project.git
+  280  git push -u origin main
+  281  git push -u origin 
+  282  git push -u origin main 
+  283  ssh https://hmdgml@github.com'
+  284  ssh https://hmdgml@github.com
+  285  ssh git@github.com:hmdgml/small_project.git
+  286  git push -u origin main 
+  287  git config -l
+  288  git clone https://github.com/hmdgml/small_project.git
+  289  git push -u origin main 
+  290  git pull -v
+  291  git push -u origin main 
+  292  git config -l
+  294  git pull 
+  295  git pull https://github.com/hmdgml/small_project.git main
+  296  git pull https://github.com/hmdgml/small_project.git 
+  297  git pull -v
+  298  git push -u origin small_project_dev
+  299  git pull https://github.com/hmdgml/small_project.git small_project_dev
+  300  git pull
+  301  git pull -h
+  302  git pull -a
+  303* git 
+  304  git push -u origin main 
+  307  git pull -v
+  328  git pull -v
+  330  git pull https://github.com/hmdgml/small_project.git 
+  331  git push -u origin small_project_dev
+  332  git push -u origin main
+  333  git pull
+  334  git pull -v
+  336  git add test
+  337  git status
+  338  git add deployment.yaml 
+  339  git status
+  340  git pull -v
+  341  git clone https://github.com/hmdgml/small_project.git
+  344  git push -u origin main
+  345  git push -u origin small_project
+  348  git config --global credential.helper cache
+  349* git pull 
+  350  git push -u origin main
+  351  git push --help
+  354  git push -u origin main
+  355  git commit -m "test2024"
+  356  git add test12345555 
+  357  git commit -m "test2024"
+  358  git push -u origin main
+  360  history | grep git
+  361  history | grep git > git_commands
+  363  history | grep kubectl > git_commands
+  364  history  > git_commands
+  365  history | grep git > git_commands

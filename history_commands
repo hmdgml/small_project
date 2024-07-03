@@ -1,0 +1,370 @@
+    1  minikube start
+    2  sudo usermod -aG sudo gamal
+    3  minikube start
+    4  sudo minikube start
+    5  sudo usermod -aG docker $USER && newgrp docker
+    6  sudo usermod -aG sudo gamal
+    7  sudo newgrp docker
+    8  sudo usermod -aG docker $USER && newgrp docker
+    9  sudo adduser gamal sudo
+   10  cat /etc/sudoers
+   11  sudo cat /etc/sudoers
+   12  sudo usermod -aG docker $USER && newgrp docker
+   13  exit
+   14  docker ps
+   15  docker ps
+   16  sudo usermod -aG docker gamal
+   17  newgrp
+   18  docker ps
+   19  sudo groupadd docker
+   20  sudo usermod -aG docker gamal
+   21  newgrp
+   22  docker ps
+   23  docker images
+   24  docker tag comingsoon-img:latest hmdgml/staudy
+   25  docker images
+   26  docker push hmdgml/staudy
+   27  docker login
+   28  docker push hmdgml/staudy
+   29  pwd
+   30  mkdir project
+   31  ls
+   32  minikube start
+   33  docker images
+   34  pwdd
+   35  pwd
+   36  cd project/
+   37  ls
+   38  !
+   39  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+   40  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+   41  kubectl version --client
+   42  kubectl version --client --output=yaml
+   43  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+   44  sudo dpkg -i minikube_latest_amd64.deb
+   45  minikube start
+   46  !
+   47  minikube --help
+   48  minikube delete 
+   49  minikube start
+   50  docker ps -a
+   51  kubectl get po -A
+   52  kubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -A!
+   53  cd ~
+   54  cd Downloads/
+   55  ls
+   56  install -m 755 k9s /usr/local/bin
+   57  sudo install -m 755 k9s /usr/local/bin
+   58  sudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/binsudo install -m 755 k9s /usr/local/bin
+   59  k9s
+   60  k9sk9sk9s!
+   61  exit
+   62  docker 
+   63  sudo docker ps
+   64  sudo docker images
+   65  sudo docker rmi comingsoon
+   66  sudo docker images
+   67  sudo docker imagessudo docker images
+   68  docker run -d -p 8000:80 comingsoon-img
+   69  sudo docker run -d -p 8000:80 comingsoon-img
+   70  curl localhost:8000
+   71  sudo docker stop comingsoon-img
+   72  sudo docker ps -a
+   73  sudo docker stop b9048c6f5ba3
+   74  sudo docker rm  b9048c6f5ba3
+   75  docker login
+   76  sudo docker login
+   77  docker tag comingsoon-img dockerhub.user/comingsoon-img 
+   78  sudo docker tag comingsoon-img dockerhub.user/comingsoon-img 
+   79  sudo docker push dockerhub.user/comingsoon-img
+   80  sudo docker tag comingsoon-img dockerhub.hmdgml/comingsoon-img 
+   81  sudo docker push dockerhub.hmdgml/comingsoon-img
+   82  sudo docker push dockerhub.hmdgml/study:comingsoon-img
+   83  sudo docker push hmdgml/study:comingsoon-img
+   84  sudo docker image
+   85  sudo docker images
+   86  sudo docker tag comingsoon-img hmdgml.study/comingsoon-img 
+   87  sudo docker images
+   88  sudo docker rmi dockerhub.hmdgml/comingsoon-img
+   89  sudo docker rmi dockerhub.user/comingsoon-img
+   90  sudo docker images
+   91  sudo docker push hmdgml.study/comingsoon-img
+   92  sudo docker tag comingsoon-img hmdgml.study/comingsoon-img 
+   93  sudo docker images
+   94  sudo docker push hmdgml/study:hmdgml.study/comingsoon-img
+   95  sudo docker push hmdgml/study:comingsoon-img
+   96  sudo docker push hmdgml.study/comingsoon-img
+   97  sudo docker push comingsoon-img
+   98  sudo docker push hmdgml/study/comingsoon-img
+   99  sudo docker push hmdgml.study/comingsoon-img
+  100  sudo docker push -h
+  101  sudo docker push -a
+  102  sudo docker push hmdgml:comingsoon-img
+  103  sudo docker push comingsoon-img:
+  104  sudo docker push hmdgml:comingsoon-img:latest
+  105  sudo docker push 
+  106  sudo docker push --help
+  107  sudo docker push dockerhub.user/comingsoon-img
+  108  sudo docker push dockerhub.hmdgml/comingsoon-img
+  109  sudo docker login 
+  110  sudo docker push hmdgml.study/comingsoon-img
+  111  docker push dockerhub.user/comingsoon-img
+  112  sudo docker push hmdgml.study/comingsoon-img
+  113  sudo docker images
+  114  sudo docker push hmdgml.study/comingsoon-img:latest
+  115  nslookup hmdgml.docker.io
+  116  nslookup hmdgml.study.docker.io
+  117  sudo docker login
+  118  ls
+  119  lslslsls
+  120  sudo groupadd docker
+  121  sudo usermod -aG docker gamal
+  122  newgrp docker
+  123  exit
+  124  docker ps
+  125  sudo groupadd docker
+  126  exit
+  127  docker ps
+  128  cd ~
+  129  ls
+  130  cd Downloads/
+  131  ls
+  132  tar -xvzf k9s_Linux_x86_64.tar.gz 
+  133  sudo install -m 755 k9s /usr/local/bin
+  134  cd ~/project
+  135  pwd
+  136  cd ~/Downloads/
+  137  ls
+  138  tar -vxzf vscode_cli_alpine_x64_cli.tar.gz 
+  139  ls -altr
+  140  dpkg -i code_1.90.2-1718751586_amd64.deb
+  141  sudo dpkg -i code_1.90.2-1718751586_amd64.deb
+  142  kubectl --help
+  143  docker ps
+  144  cd ~/project/
+  145  docker ps
+  146  sudo docker ps
+  147  su - 
+  148  docker ps
+  149  kubectl create namespace comingsoon
+  150  pwd
+  151  cd project/
+  152  docker ps
+  153  kubectl -n comingsoon apply -f deplyment.yaml
+  154  kubectl -n comingsoon apply -f deployment.yaml
+  155  kubectl -n comingsoon apply -f services.yaml
+  156  docker ps
+  157  cd ..
+  158  docker ps
+  159  newgrp
+  160  sudo docker ps
+  161  docker ps
+  162  newgrp docker
+  163  sudo usermod -aG docker $USER && newgrp docker
+  164  docker ps
+  165  docker ps!
+  166  kubectl -v
+  167  kubectl -help
+  168  kubectl --help
+  169  minikube start
+  170  su admin
+  171  sw -admin 
+  172  sw -admin
+  173  su -admin
+  174  su - admin
+  175  minikube stop
+  176  kubectl get po -A
+  177  exit
+  178  k9s
+  179  docker ps
+  180  newgrp docker
+  181  ls
+  182  ./VBoxLinuxAdditions.run 
+  183  docker ps
+  184  kubectl get all -A
+  185  minikube start
+  186  kubectl get all -A
+  187  k9s
+  188  sudo ./VBoxWindowsAdditions-x86.exe 
+  189  sudo ./VBoxWindowsAdditions.exe 
+  190  sudo ./VBoxLinuxAdditions.run 
+  191  su -
+  192  kubectl get all -A
+  193  sudo ./VBoxLinuxAdditions.run 
+  194  df -h
+  195  shutdown
+  196  sudo shutdown
+  197  sudo shutdown --now
+  198  sudo shutdown -n
+  199  sudo shutdown -h
+  200  clo
+  201  clock
+  202  sudo shutdown -h
+  203  su -
+  204  ./VBoxLinuxAdditions.run 
+  205  sudo ./VBoxLinuxAdditions.run 
+  206  doker ps
+  207  docker ps
+  208  cd project/
+  209  git .
+  210  git .init
+  211  git init
+  212  git -v
+  213  git --version
+  214  git --help
+  215  git status
+  216  minikube -h
+  217  minikube -v
+  218  docker ps
+  219  minikube start
+  220  minikube stop
+  221  docker ps
+  222  minikube start
+  223  docker ps
+  224  kubectl get all -A
+  225  kubectl delete deployment
+  226  kubectl delete deployment comingsoon
+  227  kubectl delete deployment comingsoon-page-img-deployment
+  228  kubectl delete -n commingsoon comingsoon-page-img-deployment
+  229  kubectl delete -n commingsoon 
+  230  kubectl delete -n commingsoon --all
+  231  kubectl delete -n commingsoon -A
+  232  kubectl delete --help
+  233  kubectl delete -l commingsoon
+  234  kubectl delete deployment -l commingsoon
+  235  kubectl delete deployment --help
+  236  kubectl delete deployment -n comingsoon 
+  237  kubectl delete deployment -n comingsoon -a
+  238  kubectl delete -n comingsoon deployment -a
+  239  kubectl delete -n comingsoon deployment --all
+  240  kubectl get all -A
+  241  kubectl delete -n comingsoon all --all
+  242  kubectl get all -A
+  243  history | grep kubectl
+  244  kubectl create namespace comingsoon
+  245  kubectl -n comingsoon apply -f deplyment.yaml
+  246  git config --list
+  247  git config --list --show-origin
+  248  git config --global user.name hmdgml
+  249  git config --global user.email hmdgml@gmail.com
+  250  git config --list
+  251  git init
+  252  cd project/
+  253  git init
+  254  docker ps
+  255  git init
+  256  ls 
+  257  git add test
+  258  git status
+  259  git commit 
+  260  git commit -m "first"
+  261  git push test
+  262  git checkout -u origin main
+  263  git checkout -u main
+  264  git checkout -u master
+  265  git branch -u origin main
+  266  git branch -u origin master
+  267  git pull test
+  268  git config --global credential.username hmdgml
+  269  git branch -M main
+  270  git remote add origin https://github.com/hmdgml/study.git
+  271  git push -u origin main
+  272  git remote add origin https://github.com/hmdgml/small_project.git
+  273  git remote remove origin https://github.com/hmdgml/small_project.git
+  274  git remote remove https://github.com/hmdgml/small_project.git
+  275  git remote remove origin https://github.com/hmdgml/small_project.git
+  276  git remote remove  https://github.com/hmdgml/small_project.git
+  277  git remote remove origin 
+  278  git remote remove origin https://github.com/hmdgml/small_project.git
+  279  git remote add origin https://github.com/hmdgml/small_project.git
+  280  git push -u origin main
+  281  git push -u origin 
+  282  git push -u origin main 
+  283  ssh https://hmdgml@github.com'
+
+  284  ssh https://hmdgml@github.com
+  285  ssh git@github.com:hmdgml/small_project.git
+  286  git push -u origin main 
+  287  git config -l
+  288  git clone https://github.com/hmdgml/small_project.git
+  289  git push -u origin main 
+  290  git pull -v
+  291  git push -u origin main 
+  292  git config -l
+  293  ls
+  294  git pull 
+  295  git pull https://github.com/hmdgml/small_project.git main
+  296  git pull https://github.com/hmdgml/small_project.git 
+  297  git pull -v
+  298  git push -u origin small_project_dev
+  299  git pull https://github.com/hmdgml/small_project.git small_project_dev
+  300  git pull
+  301  git pull -h
+  302  git pull -a
+  303* git 
+  304  git push -u origin main 
+  305  ls
+  306  ls small_project/
+  307  git pull -v
+  308  rm -f small_project/
+  309  rmdir -f small_project/
+  310  rmdir small_project/
+  311  rmdir -h
+  312  rmdir --help
+  313  rmdir p small_project/
+  314  rmdir -p small_project/
+  315  rmdir -P small_project/
+  316  rmdir --parents small_project/
+  317  rm -f small_project/README.md 
+  318  rmdir -P small_project/
+  319  rmdir -p small_project/
+  320  rmdir small_project/
+  321  rm -f small_project/
+  322  rmdir small_project/
+  323  rmdir -p small_project/
+  324  ls rm -r small_project/
+  325  rm -r small_project/
+  326  rm -r small_project
+  327  ls
+  328  git pull -v
+  329  ls
+  330  git pull https://github.com/hmdgml/small_project.git 
+  331  git push -u origin small_project_dev
+  332  git push -u origin main
+  333  git pull
+  334  git pull -v
+  335  ls
+  336  git add test
+  337  git status
+  338  git add deployment.yaml 
+  339  git status
+  340  git pull -v
+  341  git clone https://github.com/hmdgml/small_project.git
+  342  ls
+  343  cd small_project/
+  344  git push -u origin main
+  345  git push -u origin small_project
+  346  cd ..
+  347  ls
+  348  git config --global credential.helper cache
+  349* git pull 
+  350  git push -u origin main
+  351  git push --help
+  352  cd small_project/
+  353  touch test12345555
+  354  git push -u origin main
+  355  git commit -m "test2024"
+  356  git add test12345555 
+  357  git commit -m "test2024"
+  358  git push -u origin main
+  359  ls
+  360  history | grep git
+  361  history | grep git > git_commands
+  362  ls
+  363  history | grep kubectl > git_commands
+  364  history  > git_commands
+  365  history | grep git > git_commands
+  366  cat git_commands 
+  367  history | grep kubectl > kubectl_commands
+  368  history history_commands
+  369  history > history_commands

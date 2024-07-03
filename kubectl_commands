@@ -1,0 +1,42 @@
+   39  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+   40  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+   41  kubectl version --client
+   42  kubectl version --client --output=yaml
+   51  kubectl get po -A
+   52  kubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -Akubectl get po -A!
+  142  kubectl --help
+  149  kubectl create namespace comingsoon
+  153  kubectl -n comingsoon apply -f deplyment.yaml
+  154  kubectl -n comingsoon apply -f deployment.yaml
+  155  kubectl -n comingsoon apply -f services.yaml
+  166  kubectl -v
+  167  kubectl -help
+  168  kubectl --help
+  176  kubectl get po -A
+  184  kubectl get all -A
+  186  kubectl get all -A
+  192  kubectl get all -A
+  224  kubectl get all -A
+  225  kubectl delete deployment
+  226  kubectl delete deployment comingsoon
+  227  kubectl delete deployment comingsoon-page-img-deployment
+  228  kubectl delete -n commingsoon comingsoon-page-img-deployment
+  229  kubectl delete -n commingsoon 
+  230  kubectl delete -n commingsoon --all
+  231  kubectl delete -n commingsoon -A
+  232  kubectl delete --help
+  233  kubectl delete -l commingsoon
+  234  kubectl delete deployment -l commingsoon
+  235  kubectl delete deployment --help
+  236  kubectl delete deployment -n comingsoon 
+  237  kubectl delete deployment -n comingsoon -a
+  238  kubectl delete -n comingsoon deployment -a
+  239  kubectl delete -n comingsoon deployment --all
+  240  kubectl get all -A
+  241  kubectl delete -n comingsoon all --all
+  242  kubectl get all -A
+  243  history | grep kubectl
+  244  kubectl create namespace comingsoon
+  245  kubectl -n comingsoon apply -f deplyment.yaml
+  363  history | grep kubectl > git_commands
+  367  history | grep kubectl > kubectl_commands
