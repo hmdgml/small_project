@@ -34,4 +34,4 @@ git status
 git commit -m "first"
 git pull -v
 git pull -a
-git push -u origin main  ### You must use token from git websit to enter it like the following: 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
+git push -u origin main  ### You must use token from git websit to enter it like the following: your token form website
