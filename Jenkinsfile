@@ -1,23 +1,23 @@
-pipeline{
+pipeline {
     agent any
-    enviroment {
-        DOCKERHUB_CREDENTIALS=("dockerhub")
-    
-        stage ("Doker login"){
-            steps{
-                sh "$DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin"
 
+    environment {
+		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
+	}
+    stages {
+        stage('Docker Login') {
+            steps {
+                // Add --password-stdin to run docker login command non-interactively
+                sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
             }
-
         }
-        stage ("Build & PUSH Dockerfile"){
-            steps{
+        stage('Build & push Dockerfile') {
+            steps {
                 sh """
-                cd Simple-Project
+                cd Simple-Project/
                 ansible-playbook ansible-playbook.yml
                 """
             }
-
         }
-    }
+    } 
 }
